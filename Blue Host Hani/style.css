@@ -1,0 +1,1063 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #196bde;
+    font-family: Source Serif Pro', Times, serif';
+}
+
+.title {
+    background-color: whitesmoke;
+    color: rgb(25, 107, 222);
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.title img {
+    background-color: whitesmoke;
+
+}
+
+select option {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    border: 2px solid whitesmoke;
+}
+
+.primarymenu {
+    display: flex;
+    margin-left: 33px;
+    background-color: whitesmoke;
+}
+
+.secondarymenu {
+    display: flex;
+    margin-left: 160px;
+    background-color: whitesmoke;
+}
+
+.primarymenu button,
+select,
+.primarymenu a {
+    width: 140px;
+    height: 50px;
+    border-style: none;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 18px
+}
+
+.secondarymenu,
+.secondarymenu a,
+.secondarymenu button {
+    width: 140px;
+    height: 50px;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    border-style: none;
+    font-size: 18px;
+
+}
+
+.primarymenu button:hover,
+.primarymenu select:hover,
+.secondarymenu button:hover {
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 2px 2px rgba(206, 89, 55, 0);
+    color: #000000;
+}
+
+.bodyone {
+    display: flex;
+    background-color: #071733;
+    border: 2px solid #071733;
+    width: 100%;
+    height: 580px;
+}
+
+.bodyone .bodyonetext {
+    background-color: #071733;
+}
+
+.bodyone .bodyoneimage {
+    margin-left: 180px;
+    margin-top: 45px;
+    background-color: #071733;
+}
+
+.bodyone .bodyonetext .recommended {
+    font-size: 33px;
+    font-weight: lighter;
+    background-color: #071733;
+}
+
+.bodyone .bodyonetext .org {
+    font-size: 45px;
+    font-weight: bold;
+    background-color: #071733;
+}
+
+.bodyone .bodyonetext .lineone {
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+    margin-left: 34px;
+    background-color: #071733;
+    color: whitesmoke;
+}
+
+.bodyone .bodyonetext .bluehostmakes {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 28px;
+    margin-left: 34px;
+    background-color: #071733;
+    color: whitesmoke;
+}
+
+.bodyone .bodyonetext .linethree {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 28px;
+    margin-left: 34px;
+    background-color: #071733;
+    color: whitesmoke;
+}
+
+.bodyone .bodyonetext .wordpress {
+    background-color: #071733;
+}
+
+.bodyone .bodyonetext .linethree .easy {
+    border: 2px solid #196bde;
+    width: 200px;
+    text-align: center;
+    background-color: #196bde;
+    color: whitesmoke;
+}
+
+.bodyone .bodyonetext .buynow {
+    border: 2px solid #fad64a;
+    border-radius: 4px;
+    width: 180px;
+    height: 75px;
+    margin-top: 28px;
+    margin-left: 34px;
+    background-color: #fad64a;
+}
+
+.bodyone .bodyonetext .buynow a {
+    background-color: #fad64a;
+    color: #071733;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+
+
+.bodytwo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+
+}
+
+.bodytwo .onlinestore,
+.bodytwo .wordpresshosting,
+.bodytwo .designservices {
+    background-color: whitesmoke;
+    width: 330px;
+    height: 300px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+
+.bodytwo .onlinestore {
+    position: relative;
+    right: 100px;
+}
+
+.bodytwo .designservices {
+    position: relative;
+    left: 100px
+}
+
+.bodytwo h1,
+.bodytwo img,
+.bodytwo a,
+.bodytwo li {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+;
+
+.bodytwo h1 {
+    font-size: 40px;
+}
+
+.bodytwo a {
+    font-size: 25px;
+}
+
+.bodytwo li {
+    font-size: 20px;
+    color: gray;
+}
+
+.bodytwo {
+    background-color: rgb(25, 107, 222);
+}
+
+.bodythree {
+    border: 5px solid whitesmoke;
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.bodythree .boxone {
+    margin-top: 60px;
+    margin-left: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    display: flex;
+    width: 1450px;
+    height: auto;
+    background-color: #1a4884;
+}
+
+.bodythree .boxone .boxoneimage {
+    background-color: #1a4884;
+}
+
+.bodythree .boxone .boxonetext {
+    background-color: #1a4884;
+}
+
+.bodythree .boxone .new {
+    border: 2px solid #fad64a;
+    border-radius: 6px;
+    margin-top: 24px;
+    margin-left: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: #fad64a;
+    font-size: 20px;
+}
+
+.bodythree .boxone .bluehostwondersuite {
+    background-color: #1a4884;
+    color: #ccedff;
+    margin-top: 14px;
+    margin-left: 30px;
+    font-size: 60px;
+}
+
+.bodythree .boxone .learnmore {
+    border: 2px solid whitesmoke;
+    width: 225px;
+    height: 65px;
+    background-color: whitesmoke;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+
+.bodythree .boxone .learnmore a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a4884;
+    background-color: whitesmoke;
+}
+
+.bodythree .boxtwo {
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bodythree .boxtwo .boxtwopartone {
+    background-color: #071733;
+    border: 2px solid #071733;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+}
+
+.boxtwo .boxtwopartone .partonetext {
+    background-color: #071733;
+}
+
+.boxtwo .boxtwopartone .partoneimg {
+    background-color: #071733;
+    position: relative;
+    bottom: 75px;
+}
+
+.boxtwo .boxtwopartone .partonetext .webhosting {
+    font-size: 16px;
+    font-weight: lighter;
+    color: whitesmoke;
+    background-color: #071733;
+    margin-top: 14px;
+}
+
+.boxtwo .boxtwopartone .partonetext .fasthostingfor {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #071733;
+    margin-top: 14px;
+}
+
+.boxtwo .boxtwopartone .partonetext .yourboldideas {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #071733;
+}
+
+.boxtwo .boxtwopartone .partonetext .startbuilding {
+    background-color: #84c0fd;
+    width: 210px;
+    height: 88px;
+    position: relative;
+    top: 350px;
+    z-index: 1;
+    border: 2px solid #84c0fd;
+}
+
+.boxtwo .boxtwopartone .partonetext .startbuilding a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #071733;
+    background-color: #84c0fd;
+}
+
+.boxtwo .boxtwoparttwo {
+    border: 2px solid #196bde;
+    background-color: #196bde;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+}
+
+.boxtwo .boxtwoparttwo .partwotext {
+    background-color: #196bde;
+}
+
+.boxtwo .boxtwoparttwo .partwotext .onlinestores {
+    font-size: 16px;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin-top: 14px;
+    background-color: #196bde;
+}
+
+.boxtwo .boxtwoparttwo .partwotext .easyonlinestore {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #196bde;
+    margin-top: 14px;
+}
+
+.boxtwo .boxtwoparttwo .partwotext .withwordpress {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #196bde;
+}
+
+.boxtwo .boxtwoparttwo .partwotext .startselling {
+    background-color: #84c0fd;
+    width: 210px;
+    height: 88px;
+    position: relative;
+    top: 350px;
+    z-index: 1;
+    border: 2px solid #84c0fd;
+}
+
+.boxtwo .boxtwoparttwo .partwotext .startselling a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #071733;
+    background-color: #84c0fd;
+}
+
+.boxtwo .boxtwoparttwo .partwoimg {
+    background-color: #196bde;
+    position: relative;
+    bottom: 75px;
+}
+
+
+
+.bodythree .boxthree {
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxthree .miniboxone {
+    border: 2px solid #196bde;
+    border-radius: 7px;
+    text-align: center;
+    width: 622px;
+    height: 760px;
+}
+
+.boxthree .miniboxone {
+    background-color: #196bde;
+}
+
+.boxthree .miniboxone .miniboxoneimg {
+    background-color: #196bde;
+}
+
+.boxthree .miniboxone .miniboxonetext .prowebdesign {
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #196bde;
+    color: whitesmoke;
+    margin-top: 28px;
+}
+
+.boxthree .miniboxone .miniboxonetext .letourexpert {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #196bde;
+    margin-top: 34px;
+}
+
+.boxthree .miniboxone .miniboxonetext .designyoursite {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #196bde;
+}
+
+.boxthree .miniboxone .miniboxonetext {
+    background-color: #196bde;
+}
+
+.boxthree .miniboxone .miniboxonetext .learnmore {
+    border: 2px solid #142e57;
+    width: 250px;
+    height: 85px;
+    background-color: #142e57;
+    position: relative;
+    top: 130px;
+}
+
+.boxthree .miniboxone .miniboxonetext .learnmore a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #142e57;
+}
+
+.boxthree .miniboxtwo {
+    background-color: #1c4887;
+    border: 2px solid #1c4887;
+    border-radius: 7px;
+    text-align: center;
+    width: 622px;
+    height: 760px;
+}
+
+.boxthree .miniboxtwo .miniboxtwoimg {
+    background-color: #1c4887;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext .digitalmarketing {
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #1c4887;
+    color: whitesmoke;
+    margin-top: 28px;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext .onlinemarketing {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #1c4887;
+    margin-top: 34px;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext .tailoredforyourbrand {
+    font-size: 28px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #1c4887;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext {
+    background-color: #1c4887;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext .learnmoreone {
+    border: 2px solid #408ffa;
+    width: 250px;
+    height: 85px;
+    background-color: #408ffa;
+    position: relative;
+    top: 540px;
+}
+
+.boxthree .miniboxtwo .miniboxtwotext .learnmoreone a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #408ffa;
+}
+
+.bodyfour {
+    width: 100%;
+    height: 180px;
+    background-color: #408ffa;
+}
+
+.bodyfour .bodyfourtitle .bodyfourhone {
+    background-color: #408ffa;
+}
+
+.bodyfour .bodyfourtitle {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #408ffa;
+}
+
+.bodyfour .searchbar {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #408ffa;
+    background-color: #408ffa;
+}
+
+.bodyfour .searchbar input {
+    width: 693px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+.bodyfour .searchbar select {
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bodyfour .searchbar button {
+    width: 110px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: whitesmoke;
+    background-color: #84c0fc;
+    border: 2px solid #84c0fc;
+}
+
+.bodyfive {
+    border: 2px solid whitesmoke;
+    width: 100%;
+    height: 1950px;
+    background-color: whitesmoke;
+}
+
+.bodyfive .bodyfivepartone {
+    border: 2px solid whitesmoke;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.bodyfive .partonetext {
+    background-color: whitesmoke;
+}
+
+.bodyfivepartone .partonehone {
+    background-color: whitesmoke;
+    margin-top: 28px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #1d2a3d;
+}
+
+.bodyfivepartone .partonepone {
+    background-color: whitesmoke;
+    color: #9c9297;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.bodyfivepartone .partonebuttonone {
+    margin-top: 33px;
+    background-color: whitesmoke;
+
+}
+
+.bodyfivepartone .partonebuttonone .buttonone {
+    width: 150px;
+    height: 45px;
+    border: 2px solid #196bde;
+    background-color: #196bde;
+}
+
+.bodyfivepartone .partonebuttonone .buttonone a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #196bde;
+    font-weight: bold;
+}
+
+.bodyfivepartone .partonebuttonone .buttontwo {
+    width: 280px;
+    height: 45px;
+    border: 2px solid #196bde;
+    background-color: whitesmoke;
+}
+
+.bodyfivepartone .partonebuttonone .buttontwo a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #e5f6ff;
+    font-weight: bold;
+}
+
+.bodyfive .bodyfiveparttwo {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .boxone,
+.bodyfiveparttwo .boxtwo,
+.bodyfiveparttwo .boxthree,
+.bodyfiveparttwo .boxfour {
+    border: 2px solid black;
+    width: 400px;
+    height: 1600px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .one {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .one .headerboxtwo {
+    background-color: #071733;
+    font-size: 33px;
+    font-weight: lighter;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.bodyfiveparttwo .one .new {
+    background-color: yellow;
+    color: #071733;
+    font-size: 33px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.bodyfiveparttwo .boxone .one h2,
+.bodyfiveparttwo .boxfour .one h2 {
+    margin-top: 140px;
+    margin-left: 35px;
+    font-size: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #071733;
+}
+
+.bodyfiveparttwo .boxtwo .one h2,
+.bodyfiveparttwo .boxthree .one h2 {
+    margin-top: 100px;
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #071733;
+}
+
+.bodyfiveparttwo p {
+    margin-left: 35px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: #9c9297;
+}
+
+.bodyfiveparttwo .two {
+    border: 2px solid whitesmoke;
+    margin-top: 75px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .two .aone {
+    background-color: #e5fcff;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.bodyfiveparttwo .two h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .displayflex {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .displayflex .normally {
+    position: relative;
+    right: 35px;
+}
+
+.bodyfiveparttwo .displayflex .cut {
+    position: relative;
+    right: 70px;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.bodyfiveparttwo button {
+    width: 180px;
+    height: 55px;
+    font-size: 22px;
+    border: 2px solid #196bde;
+    background-color: #196bde;
+    color: whitesmoke;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .autorenews a {
+    background-color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bodyfiveparttwo .autorenews {
+    position: relative;
+    right: 35px;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .three {
+    border: 2px solid whitesmoke;
+    margin-left: 35px;
+    margin-top: 75px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .three h1 {
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.bodyfiveparttwo .three p {
+    position: relative;
+    right: 35px;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .three .hash {
+    background-color: whitesmoke;
+    font-size: 18px;
+    color: #196bde;
+    text-decoration: none;
+}
+
+.bodyfiveparttwo .four {
+    border: 2px solid whitesmoke;
+    margin-top: 75px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .four h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .boxone .four {
+    border: 2px solid whitesmoke;
+    margin-top: 125px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .four p {
+    position: relative;
+    right: 35px;
+    margin-top: 14px;
+}
+
+.bodyfiveparttwo .boxthree .five {
+    border: 2px solid whitesmoke;
+    margin-top: 75px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .boxtwo .five,
+.bodyfiveparttwo .boxfour .five {
+    border: 2px solid whitesmoke;
+    margin-top: 145px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .five h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .five p {
+    margin-top: 14px;
+    position: relative;
+    right: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .six {
+    border: 2px solid whitesmoke;
+    margin-top: 75px;
+    margin-left: 35px;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .six h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.bodyfiveparttwo .six p {
+    margin-top: 14px;
+    position: relative;
+    right: 35px;
+}
+
+.bodysix {
+    border: 5px solid #eff6ff;
+    width: 100%;
+    height: 550px;
+    background-color: #eff6ff;
+}
+
+.bodysix .bodysixpartone {
+    border: 5PX solid #eff6ff;
+    background-color: #eff6ff;
+    width: 100%;
+    height: 200px;
+}
+
+.bodysixpartone h1 {
+    margin-top: 50px;
+    margin-left: 460px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #071733;
+    background-color: #eff6ff;
+}
+
+.bodysixpartone p {
+    margin-top: 14px;
+    margin-left: 460px;
+    font-size: 18px;
+    color: #9c9297;
+    background-color: #eff6ff;
+}
+
+.bodysixform {
+    border: 2px solid #eff6ff;
+    width: 100%;
+    height: 300px;
+    background-color: #eff6ff;
+
+}
+
+.bodysixform form {
+    background-color: #eff6ff;
+}
+
+.bodysixform .name,
+.bodysixform .email,
+.bodysixform .number {
+    border: 2px solid #eff6ff;
+    margin-top: 14px;
+    margin-left: 460px;
+    font-size: 14px;
+    color: black;
+    background-color: #eff6ff;
+}
+
+.bodysixform .name .lastname {
+    margin-left: 280px;
+    background-color: #eff6ff;
+}
+
+.bodysixform .name label,
+.bodysixform .email label,
+.bodysixform .number label {
+    background-color: #eff6ff;
+}
+
+.bodysixform .inputname,
+.bodysixform .emailinput,
+.bodysixform .numberinput,
+.bodysixform p {
+    margin-top: 7px;
+    margin-left: 460px;
+    background-color: #eff6ff;
+}
+
+.bodysixform .inputname .lastinput {
+    margin-left: 100px;
+
+}
+
+.bodysixform .inputname input,
+.bodysixform .emailinput input,
+.bodysixform .numberinput input {
+    width: 250px;
+    height: 25px;
+    background-color: #eff6ff;
+}
+
+.bodysixform .numberinput select {
+    border: 2px solid black;
+    width: 100px;
+    height: 25px;
+}
+
+.bodysixform p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #9c9297;
+}
+
+.bodysixform p a {
+    background-color: #eff6ff;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.bodysixform button {
+    margin-top: 7px;
+    margin-left: 460px;
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #eff6ff;
+    background-color: #071733;
+    border: 2px solid #071733;
+}
+
+.footnote {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 550px;
+    background-color: #4a83d8;
+}
+
+.footnote .product {
+    background-color: #4a83d8;
+}
+
+.footnote h1 {
+    margin-top: 52px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: whitesmoke;
+    background-color: #4a83d8;
+}
+
+.footnote .product a {
+    display: flex;
+    margin-top: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: #4a83d8;
+}
+
+.footnote .bluehost {
+    background-color: #196bde;
+    font-size: 22px;
+    color: whitesmoke;
+    width: 800px;
+    position: relative;
+    left: 100px;
+}
+
+.footnote .bluehost .footnotelogo {
+    margin-top: 52px;
+    background-color: whitesmoke;
+    margin-left: 52px;
+}
+
+.footnote .bluehost p {
+    background-color: #196bde;
+    margin-top: 14px;
+    margin-left: 52px;
+}
+
+.footnote .bluehost .link {
+    background-color: #196bde;
+    margin-top: 14px;
+    margin-left: 52px;
+}
+
+.bluehost .link img {
+    background-color: #196bde;
+}
