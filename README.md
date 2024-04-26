@@ -1,4 +1,4 @@
-# Bluehost-Frontpage-only-with-HTML-and-CSS
+# Bluehost-Frontpage With HTML and CSS
 Hi,
-I created BLUEHOST FRONTPAGE only with the help of HTML and CSS. the page look similar to the original.
-Thnaks
+I created BLUEHOST Frontpage with HTML and CSS.
+Thanks
